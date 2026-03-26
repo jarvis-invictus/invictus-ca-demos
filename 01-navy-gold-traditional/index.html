@@ -4,12 +4,102 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mehta & Associates — Chartered Accountants, Pune</title>
-<meta name="description" content="Mehta &amp; Associates — Chartered Accountants in Pune with 25+ years experience. Tax planning, GST compliance, audit, company incorporation. Trusted by 500+ businesses.">
-<meta property="og:title" content="Mehta &amp; Associates — Chartered Accountants, Pune">
-<meta property="og:description" content="Trusted CA firm in Pune. Tax planning, audit, GST compliance, and business advisory for 25+ years.">
+<meta name="description" content="Mehta & Associates — Trusted Chartered Accountants in Pune since 1998. GST filing, income tax, audit & company registration. Free first consultation.">
+<meta name="keywords" content="chartered accountant pune, ca firm pune, gst filing pune, income tax consultant pune, tax consultant pune">
+<meta property="og:title" content="Mehta & Associates — Chartered Accountants, Pune">
+<meta property="og:description" content="Mehta & Associates — Trusted Chartered Accountants in Pune since 1998. GST filing, income tax, audit & company registration. Free first consultation.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://invictus-ca-demos.vercel.app/01-navy-gold-traditional/">
-<link rel="canonical" href="https://invictus-ca-demos.vercel.app/01-navy-gold-traditional/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80">
+<link rel="canonical" href="https://mehtaassociates.in/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "Mehta & Associates",
+  "description": "Trusted Chartered Accountants in Pune's Shivaji Nagar since 2008. Expert GST filing, income tax returns, company registration, statutory audit, and CFO advisory for SMEs and startups.",
+  "url": "https://mehtaassociates.in",
+  "telephone": "+91-20-2345-6789",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "305 Sadashiv Peth, Shivaji Nagar",
+    "addressLocality": "Pune",
+    "postalCode": "411005",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.5195,
+    "longitude": 73.8553
+  },
+  "openingHours": ["Mo-Sa 10:00-19:00"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "194"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "CA Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "GST Filing & Compliance"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Income Tax Returns (ITR)"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Company Registration"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Statutory Audit"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Payroll & TDS Management"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does GST filing cost at Mehta & Associates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GST filing plans start at ₹1,500/month for businesses with up to 50 transactions. Our packages include GSTR-1, GSTR-3B, and annual return filing with dedicated CA support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Mehta & Associates help with company registration in Pune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We handle Private Limited, LLP, OPC, and Partnership registrations. The process takes 7–10 working days and includes MCA filing, PAN, TAN, and GST registration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer virtual or online CA services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All our services including ITR filing, GST compliance, and financial advisory are available remotely via WhatsApp, email, and video call. No need to visit the office for most services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ITR filing deadline and penalty for missing it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The standard ITR deadline is July 31st for individuals and October 31st for businesses requiring audit. Missing the deadline incurs a penalty of ₹5,000 (₹1,000 for income below ₹5 lakh). We proactively remind all clients well before deadlines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I get my income tax refund processed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tax refunds processed through our e-filing service typically arrive within 20–45 days of filing, depending on the Income Tax Department's processing queue. We track your refund status and follow up on delays."
+      }
+    }
+  ]
+}
+</script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -35,25 +125,6 @@
   .stat-box { text-align: center; padding: 24px; border-right: 1px solid rgba(255,255,255,0.1); }
   .stat-box:last-child { border-right: none; }
 </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AccountingService",
-  "name": "Mehta \u0026 Associates",
-  "description": "Chartered Accountants in Pune — tax planning, audit, GST compliance",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "304, Shivam Chambers, FC Road",
-    "addressLocality": "Pune",
-    "addressRegion": "Maharashtra",
-    "postalCode": "411004",
-    "addressCountry": "IN"
-  },
-  "telephone": "+912012345678",
-  "openingHours": "Mo-Sa 10:00-19:00",
-  "priceRange": "₹₹"
-}
-</script>
 </head>
 <body class="bg-white">
 
@@ -97,7 +168,7 @@
       </p>
       <div class="flex flex-wrap gap-4 mb-12">
         <a href="#contact" class="btn-gold">Schedule Consultation →</a>
-        <a href="tel:02023456789" class="btn-navy" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.3);">📞 020-2345-6789</a>
+        <a href="tel:02023456789" class="btn-navy" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.3);">020-2345-6789</a>
       </div>
       <div class="flex flex-wrap gap-6 text-sm" style="color:rgba(255,255,255,0.65);">
         <span>✓ ICAI Registered</span>
@@ -132,12 +203,12 @@
       <p class="text-gray-500 max-w-xl">From startup compliance to enterprise audit — we handle all aspects of your financial and legal requirements.</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">📊</div><h3 class="font-bold navy text-lg mb-2">Income Tax & ITR</h3><p class="text-gray-500 text-sm mb-3">Individual, HUF, and corporate tax filing. Advance tax planning, TDS compliance, scrutiny representation.</p><div class="gold font-semibold text-sm">₹2,000 – ₹25,000</div></div>
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">🧾</div><h3 class="font-bold navy text-lg mb-2">GST Compliance</h3><p class="text-gray-500 text-sm mb-3">GST registration, monthly/quarterly returns, annual filings, audits, and departmental notices.</p><div class="gold font-semibold text-sm">₹1,500/month</div></div>
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">🏢</div><h3 class="font-bold navy text-lg mb-2">Company Audit</h3><p class="text-gray-500 text-sm mb-3">Statutory audit, internal audit, stock audit. ROC compliance and annual return filing.</p><div class="gold font-semibold text-sm">₹15,000 onwards</div></div>
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">🚀</div><h3 class="font-bold navy text-lg mb-2">Business Registration</h3><p class="text-gray-500 text-sm mb-3">Pvt Ltd, LLP, OPC, partnership registration. MSME, Udyam, Startup India certification.</p><div class="gold font-semibold text-sm">₹5,000 – ₹15,000</div></div>
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">💼</div><h3 class="font-bold navy text-lg mb-2">CFO Services</h3><p class="text-gray-500 text-sm mb-3">Virtual CFO for growing businesses. MIS reports, financial planning, investor-ready statements.</p><div class="gold font-semibold text-sm">₹8,000/month</div></div>
-      <div class="service-card"><div style="font-size:1.8rem; margin-bottom:12px;">⚖️</div><h3 class="font-bold navy text-lg mb-2">Legal Compliance</h3><p class="text-gray-500 text-sm mb-3">Labour law compliance, FEMA, transfer pricing, RERA compliance for real estate clients.</p><div class="gold font-semibold text-sm">Custom Quote</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">ITR</div><h3 class="font-bold navy text-lg mb-2">Income Tax & ITR</h3><p class="text-gray-500 text-sm mb-3">Individual, HUF, and corporate tax filing. Advance tax planning, TDS compliance, scrutiny representation.</p><div class="gold font-semibold text-sm">₹2,000 – ₹25,000</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">GST</div><h3 class="font-bold navy text-lg mb-2">GST Compliance</h3><p class="text-gray-500 text-sm mb-3">GST registration, monthly/quarterly returns, annual filings, audits, and departmental notices.</p><div class="gold font-semibold text-sm">₹1,500/month</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">AUD</div><h3 class="font-bold navy text-lg mb-2">Company Audit</h3><p class="text-gray-500 text-sm mb-3">Statutory audit, internal audit, stock audit. ROC compliance and annual return filing.</p><div class="gold font-semibold text-sm">₹15,000 onwards</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">REG</div><h3 class="font-bold navy text-lg mb-2">Business Registration</h3><p class="text-gray-500 text-sm mb-3">Pvt Ltd, LLP, OPC, partnership registration. MSME, Udyam, Startup India certification.</p><div class="gold font-semibold text-sm">₹5,000 – ₹15,000</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">CFO</div><h3 class="font-bold navy text-lg mb-2">CFO Services</h3><p class="text-gray-500 text-sm mb-3">Virtual CFO for growing businesses. MIS reports, financial planning, investor-ready statements.</p><div class="gold font-semibold text-sm">₹8,000/month</div></div>
+      <div class="service-card"><div style="width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.75rem;margin-bottom:12px;">LAW</div><h3 class="font-bold navy text-lg mb-2">Legal Compliance</h3><p class="text-gray-500 text-sm mb-3">Labour law compliance, FEMA, transfer pricing, RERA compliance for real estate clients.</p><div class="gold font-semibold text-sm">Custom Quote</div></div>
     </div>
   </div>
 </section>
@@ -203,6 +274,39 @@
       </div>
       <button type="submit" class="btn-navy w-full text-center py-4 rounded font-semibold" style="font-size:0.95rem;">Schedule Free Consultation →</button>
     </form>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="py-20 px-6" style="background:#F7F5F0;">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-12">
+      <p style="color:var(--gold); font-size:0.75rem; letter-spacing:0.15em; font-weight:700; text-transform:uppercase;">Common Questions</p>
+      <h2 class="navy mt-2" style="font-size:2rem; font-weight:700;">Frequently Asked Questions</h2>
+      <div class="divider-gold mx-auto"></div>
+    </div>
+    <div class="space-y-3">
+      <details class="service-card" style="cursor:pointer;">
+        <summary style="font-weight:600; color:var(--navy); font-size:1rem; list-style:none; display:flex; justify-content:space-between; align-items:center;">How much does GST filing cost? <span style="color:var(--gold); font-size:1.2rem;">+</span></summary>
+        <p class="mt-3 text-sm text-gray-600 leading-relaxed">GST filing plans start at ₹1,500/month for businesses with up to 50 transactions. Packages include GSTR-1, GSTR-3B, and annual return filing with dedicated CA support. We offer quarterly and annual plans for small businesses.</p>
+      </details>
+      <details class="service-card" style="cursor:pointer;">
+        <summary style="font-weight:600; color:var(--navy); font-size:1rem; list-style:none; display:flex; justify-content:space-between; align-items:center;">Can you help with company registration in Pune? <span style="color:var(--gold); font-size:1.2rem;">+</span></summary>
+        <p class="mt-3 text-sm text-gray-600 leading-relaxed">Yes. We handle Private Limited, LLP, OPC, and Partnership registrations. The process takes 7–10 working days and includes MCA filing, PAN, TAN, and GST registration. Free post-registration compliance advisory included.</p>
+      </details>
+      <details class="service-card" style="cursor:pointer;">
+        <summary style="font-weight:600; color:var(--navy); font-size:1rem; list-style:none; display:flex; justify-content:space-between; align-items:center;">Do you offer online CA services? <span style="color:var(--gold); font-size:1.2rem;">+</span></summary>
+        <p class="mt-3 text-sm text-gray-600 leading-relaxed">Yes. All services including ITR filing, GST compliance, and financial advisory are available remotely via WhatsApp, email, and video call. No need to visit the office for most services — we've served clients across India since 2018.</p>
+      </details>
+      <details class="service-card" style="cursor:pointer;">
+        <summary style="font-weight:600; color:var(--navy); font-size:1rem; list-style:none; display:flex; justify-content:space-between; align-items:center;">What is the ITR filing deadline and penalty? <span style="color:var(--gold); font-size:1.2rem;">+</span></summary>
+        <p class="mt-3 text-sm text-gray-600 leading-relaxed">The standard ITR deadline is July 31st for individuals and October 31st for businesses requiring audit. Missing it incurs a ₹5,000 penalty (₹1,000 for income below ₹5 lakh). We send proactive reminders to all clients well before deadlines.</p>
+      </details>
+      <details class="service-card" style="cursor:pointer;">
+        <summary style="font-weight:600; color:var(--navy); font-size:1rem; list-style:none; display:flex; justify-content:space-between; align-items:center;">How quickly can I get my income tax refund? <span style="color:var(--gold); font-size:1.2rem;">+</span></summary>
+        <p class="mt-3 text-sm text-gray-600 leading-relaxed">Tax refunds through our e-filing service typically arrive within 20–45 days of filing. We track your refund status and follow up on delays with the Income Tax Department on your behalf.</p>
+      </details>
+    </div>
   </div>
 </section>
 
