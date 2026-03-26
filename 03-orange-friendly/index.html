@@ -18,7 +18,7 @@
   "name": "TaxEase Solutions",
   "description": "Affordable and transparent CA services in Nashik. GST filing, ITR, company registration, TDS compliance, and audit for individuals and businesses. Trusted by 100+ clients.",
   "url": "https://taxeasesolutions.in",
-  "telephone": "+91-253-1234-5",
+  "telephone": "+91-253-123456",
   "priceRange": "₹",
   "address": {
     "@type": "PostalAddress",
@@ -124,7 +124,16 @@
 <nav>
   <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
     <div class="font-bold text-gray-900" style="font-size:1.1rem; font-family:'Source Serif 4',serif;">Tax<span class="orange">Ease</span> Solutions</div>
-    <div class="hidden md:flex gap-8 text-sm font-semibold text-gray-500">
+    
+<button onclick="document.getElementById('mobile-nav-03-orange-friendly').classList.toggle('hidden')" class="md:hidden p-2 rounded" aria-label="Menu">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<div id="mobile-nav-03-orange-friendly" class="hidden md:hidden absolute top-full left-0 right-0 bg-white shadow-lg z-50 border-t">
+<a href="#services" class="block py-3 px-4 text-base border-b border-gray-200 hover:bg-gray-50" onclick="document.getElementById('mobile-nav-03-orange-friendly').classList.add('hidden')">Services</a>
+<a href="#why" class="block py-3 px-4 text-base border-b border-gray-200 hover:bg-gray-50" onclick="document.getElementById('mobile-nav-03-orange-friendly').classList.add('hidden')">Why Us</a>
+<a href="#contact" class="block py-3 px-4 text-base border-b border-gray-200 hover:bg-gray-50" onclick="document.getElementById('mobile-nav-03-orange-friendly').classList.add('hidden')">Contact</a>
+</div>
+<div class="hidden md:flex gap-8 text-sm font-semibold text-gray-500">
       <a href="#services" class="hover:text-orange-600">Services</a>
       <a href="#why" class="hover:text-orange-600">Why Us</a>
       <a href="#contact" class="hover:text-orange-600">Contact</a>
@@ -141,7 +150,7 @@
       <p class="text-gray-500 text-lg mb-8 max-w-md leading-relaxed">We take the stress out of taxes and compliance. Friendly, affordable CA services for individuals and businesses in Nashik and beyond.</p>
       <div class="flex gap-4 flex-wrap mb-8">
         <a href="#contact" class="btn-orange">Talk to a CA &#8594;</a>
-        <a href="tel:025312345" style="border:2px solid #FDBA74;color:var(--orange);padding:12px 26px;border-radius:50px;font-weight:700;display:inline-block;">Call 0253-1234-5</a>
+        <a href="tel:+91253123456" style="border:2px solid #FDBA74;color:var(--orange);padding:12px 26px;border-radius:50px;font-weight:700;display:inline-block;">Call 0253-1234-5</a>
       </div>
       <p class="text-sm text-gray-500 font-medium max-w-md">Affordable, fixed-price plans with WhatsApp support and same-day filing for salaried ITRs.</p>
     </div>
@@ -228,6 +237,31 @@
   </div>
 </section>
 
+
+<!-- TESTIMONIALS -->
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-2xl font-bold text-center mb-10" style="font-family:'Source Serif 4',serif; color:#EA580C;">What Our Clients Say</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-orange-50 p-6 rounded-lg border-l-3" style="border-left:3px solid #EA580C;">
+        <p class="text-gray-600 text-sm italic mb-3">"Filed my ITR for ₹499 — thought it was too cheap to be real. Turns out they're just that efficient. Got my refund in 3 weeks."</p>
+        <div class="font-bold text-sm" style="color:#EA580C;">Deepak R.</div>
+        <div class="text-xs text-gray-400">Small Business Owner, Nashik</div>
+      </div>
+      <div class="bg-orange-50 p-6 rounded-lg border-l-3" style="border-left:3px solid #EA580C;">
+        <p class="text-gray-600 text-sm italic mb-3">"We switched from a big firm after they missed a GST deadline. TaxEase has been on time, every quarter, for 2 years now."</p>
+        <div class="font-bold text-sm" style="color:#EA580C;">Sunita K.</div>
+        <div class="text-xs text-gray-400">Retail Chain Owner</div>
+      </div>
+      <div class="bg-orange-50 p-6 rounded-lg border-l-3" style="border-left:3px solid #EA580C;">
+        <p class="text-gray-600 text-sm italic mb-3">"The WhatsApp-first approach is perfect for me. I send documents, get updates, and never had to visit their office once."</p>
+        <div class="font-bold text-sm" style="color:#EA580C;">Manoj P.</div>
+        <div class="text-xs text-gray-400">Freelance Consultant</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FAQ SECTION -->
 <section class="py-20 px-6" id="faq">
   <div class="max-w-3xl mx-auto">
@@ -264,7 +298,7 @@
   <div class="max-w-3xl mx-auto text-center">
     <h2 style="font-size:2.2rem;" class="text-white mb-3">Get a Free Quote</h2>
     <p class="text-orange-100 mb-10">Tell us your needs -- we'll give you a clear, no-obligation price in 30 minutes.</p>
-    <form class="bg-white rounded-2xl p-8 text-left shadow-2xl">
+    <form action="https://wa.me/919876543210" method="get" class="bg-white rounded-2xl p-8 text-left shadow-2xl">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
         <div><label class="text-sm font-semibold text-gray-700 block mb-2">Name</label><input type="text" placeholder="Your name" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-400"></div>
         <div><label class="text-sm font-semibold text-gray-700 block mb-2">WhatsApp</label><input type="tel" placeholder="+91 98765 43210" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none"></div>
