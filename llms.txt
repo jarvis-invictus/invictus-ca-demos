@@ -1,0 +1,16 @@
+# Invictus AI — CA/Accounting Firm Demo Showcase
+
+> Invictus AI builds AI-powered websites for local businesses in India. This showcase features 5 Chartered Accountant firm website demos, each with a unique design and positioning.
+
+## Demo Sites
+
+- [Mehta & Associates](https://invictus-ca-demos.vercel.app/01-navy-gold-traditional/) — Traditional Navy & Gold theme, Pune
+- [FinCore Advisory](https://invictus-ca-demos.vercel.app/02-blue-modern-startup/) — Modern Blue startup theme, Mumbai
+- [TaxEase Solutions](https://invictus-ca-demos.vercel.app/03-orange-friendly/) — Friendly Orange theme, Nashik
+- [Verdant Finance](https://invictus-ca-demos.vercel.app/04-green-ethical/) — Ethical Green theme, Pune
+- [Cipher & Co](https://invictus-ca-demos.vercel.app/05-dark-cyan-tech/) — Tech-focused Dark Cyan theme, Pune Tech Park
+
+## About Invictus AI
+
+Website: https://invictus-ai.in
+Contact: hello@invictus-ai.in
